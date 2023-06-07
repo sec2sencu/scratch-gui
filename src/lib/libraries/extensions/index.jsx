@@ -1,6 +1,9 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
+import sencuIconURL from './sencu/sencu.png';
+import sencuInsetIconURL from './sencu/sencu-small.svg';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -47,6 +50,14 @@ import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 export default [
+    {
+        name: 'SenCu',
+        extensionId: 'sencu',
+        iconURL: sencuIconURL,
+        insetIconURL: sencuInsetIconURL,
+        description: 'SenCu Extension for Scratch 3.0',
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
